@@ -4,10 +4,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
 import { Box, ArrowRight, Shield, Palette, Building2, User } from "lucide-react";
-import nexusLogo from "@assets/NCS11_1756704209883.jpg";
-import cryptoLogo from "@assets/CN1_1756704209882.jpg";
-import byteLogo from "@assets/BS1_1756704209882.jpg";
-import founderImage from "@assets/JH1_1756704209882.png";
+import nexusLogo from "@assets/NCS11_1757250928881.jpg";
+import cryptoLogo from "@assets/Crypto Nexus 1_1757250928874.jpg";
+import byteLogo from "@assets/Byte Studio 1_1757250928872.jpg";
+import founderImage from "@assets/JH1_1757250928875.png";
 
 const brands = [
   {
