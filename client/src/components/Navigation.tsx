@@ -6,6 +6,9 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { Menu, X, ChevronDown } from "lucide-react";
 import { Link, useLocation } from "wouter";
 import nexusMainLogo from "@assets/NCS11_1757250928881.jpg";
+import cryptoLogo from "@assets/Crypto Nexus 1_1757250928874.jpg";
+import byteLogo from "@assets/Byte Studio 1.1_1757250928871.jpg";
+import founderImage from "@assets/JH1_1757250928875.png";
 
 export function Navigation() {
   const { theme, setTheme } = useTheme();
@@ -58,32 +61,48 @@ export function Navigation() {
               <DropdownMenuContent className="w-56">
                 <DropdownMenuItem asChild>
                   <Link href="/nexus-studio" className="w-full">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-gradient-to-r from-primary to-accent rounded-full"></div>
+                    <div className="flex items-center space-x-3">
+                      <img 
+                        src={nexusMainLogo} 
+                        alt="Nexus Creative Studio" 
+                        className="w-6 h-6 rounded object-cover"
+                      />
                       <span>Nexus Creative Studio</span>
                     </div>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link href="/founder" className="w-full">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full"></div>
+                    <div className="flex items-center space-x-3">
+                      <img 
+                        src={founderImage} 
+                        alt="Jobayer Hoque Siddique" 
+                        className="w-6 h-6 rounded object-cover"
+                      />
                       <span>Jobayer Hoque Siddique</span>
                     </div>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link href="/crypto-nexus" className="w-full">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-gradient-to-r from-green-500 to-cyan-500 rounded-full"></div>
+                    <div className="flex items-center space-x-3">
+                      <img 
+                        src={cryptoLogo} 
+                        alt="Crypto Nexus" 
+                        className="w-6 h-6 rounded object-cover"
+                      />
                       <span>Crypto Nexus</span>
                     </div>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link href="/byte-studio" className="w-full">
-                    <div className="flex items-center space-x-2">
-                      <div className="w-3 h-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
+                    <div className="flex items-center space-x-3">
+                      <img 
+                        src={byteLogo} 
+                        alt="Byte Studio" 
+                        className="w-6 h-6 rounded object-cover"
+                      />
                       <span>Byte Studio</span>
                     </div>
                   </Link>
