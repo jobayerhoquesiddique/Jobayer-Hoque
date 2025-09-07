@@ -27,7 +27,10 @@ export function Navigation() {
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center">
               <span className="text-white font-bold">N</span>
             </div>
-            <span className="text-xl font-bold">Nexus Creative Studio</span>
+            <div className="flex flex-col">
+              <span className="text-xl font-bold">Nexus Creative Studio</span>
+              <span className="text-xs text-muted-foreground hidden lg:block">Trusted Digital Solutions • $8.5K Monthly Revenue</span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}
