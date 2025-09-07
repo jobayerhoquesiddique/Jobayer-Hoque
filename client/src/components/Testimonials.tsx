@@ -1,6 +1,7 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Quote } from "lucide-react";
+import nexusTestimonialLogo from "@assets/NCS11_1757250928881.jpg";
 
 const testimonials = [
   {
@@ -33,6 +34,13 @@ export function Testimonials() {
     <section id="testimonials" className="py-24">
       <div className="max-w-7xl mx-auto px-6" ref={testimonialsRef}>
         <div className="text-center mb-16">
+          <div className="flex justify-center mb-6">
+            <img 
+              src={nexusTestimonialLogo} 
+              alt="Nexus Creative Studio Testimonials" 
+              className="w-16 h-16 rounded-xl object-cover"
+            />
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             Client Success Stories
           </h2>
