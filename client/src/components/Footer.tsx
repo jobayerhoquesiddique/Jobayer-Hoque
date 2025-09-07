@@ -3,6 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import nexusFooterLogo from "@assets/NCS11_1757250928881.jpg";
 
 export function Footer() {
   const { toast } = useToast();
@@ -30,10 +31,12 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-4 gap-8 mb-12">
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold">N</span>
-              </div>
+            <div className="flex items-center space-x-3">
+              <img 
+                src={nexusFooterLogo} 
+                alt="Nexus Creative Studio" 
+                className="w-10 h-10 rounded-lg object-cover"
+              />
               <span className="text-xl font-bold">Nexus Creative Studio</span>
             </div>
             <p className="text-muted-foreground" data-testid="footer-description">
