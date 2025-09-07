@@ -37,8 +37,13 @@ export function Footer() {
               <span className="text-xl font-bold">Nexus Creative Studio</span>
             </div>
             <p className="text-muted-foreground" data-testid="footer-description">
-              Building the future of digital experiences through innovation, creativity, and technical excellence.
+              Trusted digital agency delivering transparent pricing and proven results since 2024. $8.5K monthly revenue • 13 active clients.
             </p>
+            <div className="text-sm text-muted-foreground mt-4">
+              <div>Founded: 2024</div>
+              <div>Revenue: $5K-$10K Monthly</div>
+              <div>Projects: $500-$5,000 Range</div>
+            </div>
           </div>
 
           <div>
