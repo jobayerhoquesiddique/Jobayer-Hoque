@@ -2,8 +2,8 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { ParticleBackground } from "./ParticleBackground";
 import { Button } from "@/components/ui/button";
 import { Link } from "wouter";
-import founderHeroImage from "@assets/JH1_1756704209882.png";
-import nexusStudioCover from "@assets/NCS1_1756703260455.jpg";
+import founderHeroImage from "@assets/JHS1_1757250928875.png";
+import nexusStudioCover from "@assets/NCS1_1757250928880.jpg";
 
 export function Hero() {
   const heroRef = useScrollAnimation();

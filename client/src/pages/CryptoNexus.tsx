@@ -16,8 +16,8 @@ import {
   ArrowRight,
   CheckCircle
 } from "lucide-react";
-import cryptoLogo from "@assets/CN1_1756704209882.jpg";
-import cryptoCover from "@assets/CN11_1756704209882.jpg";
+import cryptoLogo from "@assets/Crypto Nexus 1_1757250928874.jpg";
+import cryptoCover from "@assets/Crypto Nexus 1.1_1757250928874.jpg";
 
 const services = [
   {

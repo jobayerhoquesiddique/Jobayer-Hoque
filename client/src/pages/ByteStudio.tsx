@@ -16,8 +16,8 @@ import {
   Clock,
   DollarSign
 } from "lucide-react";
-import byteStudioLogo from "@assets/BS1_1756704209882.jpg";
-import byteStudioCover from "@assets/BS_1756703260453.jpg";
+import byteStudioLogo from "@assets/Byte Studio 1.1_1757250928871.jpg";
+import byteStudioCover from "@assets/Byte Studio 1_1757250928872.jpg";
 
 const designServices = [
   {
