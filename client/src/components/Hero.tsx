@@ -38,7 +38,7 @@ export function Hero() {
             <div className="space-y-6">
               <div className="inline-flex items-center space-x-2 bg-card/80 backdrop-blur-sm px-4 py-2 rounded-full border border-border">
                 <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse" data-testid="status-indicator"></div>
-                <span className="text-sm text-muted-foreground">Available for Strategic Partnerships</span>
+                <span className="text-sm text-muted-foreground">$8.5K Monthly Revenue • 13 Active Clients</span>
               </div>
 
               <h1 className="text-5xl lg:text-8xl font-bold leading-tight" data-testid="hero-title">
@@ -51,7 +51,7 @@ export function Hero() {
               </h1>
 
               <p className="text-xl text-muted-foreground max-w-lg leading-relaxed" data-testid="hero-description">
-                Multi-brand digital agency specializing in Web3, design, and strategic technology leadership. From blockchain solutions to MVP development - we build the future.
+                Trusted digital agency delivering consistent results since 2024. From Web3 solutions to MVP development - we help businesses grow with proven strategies and transparent pricing.
               </p>
             </div>
 

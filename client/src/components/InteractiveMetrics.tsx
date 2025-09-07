@@ -6,66 +6,66 @@ import { TrendingUp, Users, Code, Award, Globe, Shield } from "lucide-react";
 
 const metrics = [
   {
-    title: "Global Reach",
-    value: 15,
-    max: 20,
-    unit: "Countries",
-    icon: Globe,
+    title: "Active Clients",
+    value: 13,
+    max: 15,
+    unit: "Clients",
+    icon: Users,
     color: "from-blue-500 to-cyan-500",
-    description: "International client portfolio"
+    description: "Growing client base since 2024"
+  },
+  {
+    title: "Monthly Revenue",
+    value: 8.5,
+    max: 10,
+    unit: "K",
+    icon: TrendingUp,
+    color: "from-green-500 to-emerald-500",
+    description: "Consistent monthly recurring revenue"
+  },
+  {
+    title: "Projects Delivered",
+    value: 28,
+    max: 30,
+    unit: "Projects",
+    icon: Code,
+    color: "from-purple-500 to-pink-500",
+    description: "Successfully completed projects"
   },
   {
     title: "Client Satisfaction",
-    value: 98,
+    value: 97,
     max: 100,
     unit: "%",
     icon: Award,
-    color: "from-green-500 to-emerald-500",
-    description: "Average satisfaction rating"
+    color: "from-orange-500 to-red-500",
+    description: "Average client satisfaction score"
   },
   {
-    title: "Code Quality",
-    value: 95,
-    max: 100,
-    unit: "Score",
-    icon: Code,
-    color: "from-purple-500 to-pink-500",
-    description: "Test coverage & best practices"
-  },
-  {
-    title: "Security Rating",
-    value: 99,
-    max: 100,
-    unit: "A+",
-    icon: Shield,
-    color: "from-red-500 to-orange-500",
-    description: "Security audit compliance"
-  },
-  {
-    title: "Team Growth",
-    value: 250,
-    max: 300,
-    unit: "%",
-    icon: Users,
+    title: "Avg. Project Value",
+    value: 2.8,
+    max: 5,
+    unit: "K",
+    icon: Globe,
     color: "from-indigo-500 to-purple-500",
-    description: "Year-over-year growth"
+    description: "Average project contract value"
   },
   {
-    title: "Revenue Growth",
-    value: 340,
-    max: 400,
+    title: "On-Time Delivery",
+    value: 94,
+    max: 100,
     unit: "%",
-    icon: TrendingUp,
+    icon: Shield,
     color: "from-pink-500 to-rose-500",
-    description: "Annual revenue increase"
+    description: "Projects delivered on schedule"
   }
 ];
 
 const achievements = [
-  { title: "Forbes 30 Under 30 Nominee", year: "2024", category: "Technology" },
-  { title: "Blockchain Innovation Award", year: "2024", category: "DeFi" },
-  { title: "Startup Accelerator Graduate", year: "2023", category: "Tech" },
-  { title: "Industry Speaking Engagements", year: "2024", category: "Leadership" },
+  { title: "Founded Nexus Creative Studio", year: "2024", category: "Business" },
+  { title: "First $10K Month Achieved", year: "2024", category: "Revenue" },
+  { title: "15+ Clients Acquired", year: "2024", category: "Growth" },
+  { title: "Multi-Brand Portfolio Launch", year: "2024", category: "Expansion" },
 ];
 
 export function InteractiveMetrics() {
