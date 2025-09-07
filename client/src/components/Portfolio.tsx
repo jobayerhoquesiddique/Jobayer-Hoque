@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Laptop, Coins, Smartphone, ArrowRight } from "lucide-react";
+import nexusPortfolioLogo from "@assets/NCS11_1757250928881.jpg";
 
 const projects = [
   {
@@ -155,6 +156,13 @@ export function Portfolio() {
     <section id="portfolio" className="py-24 bg-secondary/50">
       <div className="max-w-7xl mx-auto px-6" ref={portfolioRef}>
         <div className="text-center mb-16">
+          <div className="flex justify-center mb-6">
+            <img 
+              src={nexusPortfolioLogo} 
+              alt="Nexus Creative Studio Portfolio" 
+              className="w-16 h-16 rounded-xl object-cover"
+            />
+          </div>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6" data-testid="portfolio-title">
             Recent Client Projects
           </h2>
