@@ -21,8 +21,8 @@ import {
   GraduationCap,
   Rocket
 } from "lucide-react";
-import founderImage from "@assets/JH1_1756704209882.png";
-import founderCover from "@assets/JHS1_1756704209882.png";
+import founderImage from "@assets/JH1_1757250928875.png";
+import founderCover from "@assets/JHS1_1757250928875.png";
 
 const timeline = [
   {
