@@ -9,6 +9,7 @@ import Founder from "@/pages/Founder";
 import CryptoNexus from "@/pages/CryptoNexus";
 import ByteStudio from "@/pages/ByteStudio";
 import NexusStudio from "@/pages/NexusStudio";
+import Metrics from "@/pages/Metrics";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
       <Route path="/crypto-nexus" component={CryptoNexus} />
       <Route path="/byte-studio" component={ByteStudio} />
       <Route path="/nexus-studio" component={NexusStudio} />
+      <Route path="/metrics" component={Metrics} />
       <Route component={NotFound} />
     </Switch>
   );

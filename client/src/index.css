@@ -40,6 +40,24 @@
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
   --radius: 0.75rem;
+  
+  /* Brand Identity System */
+  --nexus-blue: #2563eb;
+  --nexus-purple: #7c3aed;
+  --nexus-cyan: #06b6d4;
+  --nexus-orange: #ea580c;
+  --nexus-pink: #ec4899;
+  --nexus-emerald: #10b981;
+  
+  /* Brand Gradients */
+  --gradient-primary: linear-gradient(135deg, var(--nexus-blue) 0%, var(--nexus-purple) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--nexus-cyan) 0%, var(--nexus-blue) 100%);
+  --gradient-creative: linear-gradient(135deg, var(--nexus-pink) 0%, var(--nexus-purple) 100%);
+  --gradient-success: linear-gradient(135deg, var(--nexus-emerald) 0%, var(--nexus-cyan) 100%);
+  
+  /* Brand Shadows */
+  --shadow-brand: 0 10px 25px -3px rgba(37, 99, 235, 0.1);
+  --shadow-brand-lg: 0 25px 50px -12px rgba(37, 99, 235, 0.15);
 }
 
 [data-theme="dark"] {
