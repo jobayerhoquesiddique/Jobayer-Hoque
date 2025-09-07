@@ -19,7 +19,7 @@ const brands = [
     tags: ["Strategy", "Leadership", "Multi-Brand"],
     logo: nexusLogo,
     link: "/nexus-studio",
-    stats: "50+ Projects"
+    stats: "28+ Projects"
   },
   {
     name: "Jobayer Hoque Siddique",
@@ -30,7 +30,7 @@ const brands = [
     tags: ["Strategy", "Consulting", "Authority"],
     logo: founderImage,
     link: "/founder", 
-    stats: "5+ Years Leading"
+    stats: "Founded 2024"
   },
   {
     name: "Crypto Nexus",
@@ -41,7 +41,7 @@ const brands = [
     tags: ["Smart Contracts", "DeFi", "Web3"],
     logo: cryptoLogo,
     link: "/crypto-nexus",
-    stats: "$4M+ TVL"
+    stats: "8+ Web3 Projects"
   },
   {
     name: "Byte Studio",
@@ -52,7 +52,7 @@ const brands = [
     tags: ["MVP Development", "Design", "Prototyping"],
     logo: byteLogo,
     link: "/byte-studio",
-    stats: "25+ MVPs Built"
+    stats: "15+ MVPs Built"
   }
 ];
 

@@ -10,6 +10,7 @@ import { PricingCalculator } from "@/components/PricingCalculator";
 import { InteractiveRoadmap } from "@/components/InteractiveRoadmap";
 import { InteractiveMetrics } from "@/components/InteractiveMetrics";
 import { DataVisualizations } from "@/components/DataVisualizations";
+import { Testimonials } from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -20,10 +21,9 @@ export default function Home() {
         <Brands />
         <InteractiveMetrics />
         <Services />
-        <DataVisualizations />
-        <PricingCalculator />
-        <InteractiveRoadmap />
         <Portfolio />
+        <Testimonials />
+        <PricingCalculator />
         <Contact />
       </main>
       <Footer />
