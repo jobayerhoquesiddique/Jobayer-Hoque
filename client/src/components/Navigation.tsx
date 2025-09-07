@@ -102,6 +102,14 @@ export function Navigation() {
             >
               Portfolio
             </button>
+            <Link href="/metrics">
+              <button 
+                className={`hover:text-primary theme-transition ${location === '/metrics' ? 'text-primary font-semibold' : ''}`}
+                data-testid="nav-metrics"
+              >
+                Metrics
+              </button>
+            </Link>
             <button 
               onClick={() => scrollToSection('contact')} 
               className="hover:text-primary theme-transition"
